@@ -11,12 +11,6 @@
 - 👯 Je souhaite collaborer avec d'autres **créateurs de contenu**
 
 - ⚡ Fait amusant ** J'adore jouer au football. **
-### Connecté avec moi :
-
-<a href="https://twitter.com/rodrigue_smith_" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="abuanwar072" height="22" width="22" /></a>
-<a href="https://linkedin.com/in/rodrigue" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="abuanwar072" height="22" width="22" /></a>
-<a href="https://www.youtube.com/c/ucjm7i4g4z7zgcja_hkhlcvw" target="blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="ucjm7i4g4z7zgcja_hkhlcvw" height="22" width="22" /></a>
-
 
 <br />
 
