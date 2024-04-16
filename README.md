@@ -1,5 +1,5 @@
 <h1 align="center">Salut 👋, Je suis Rodrigue Assohou</h1>
-<h3 align="center">Programmeur web depuis l'âge de 13 ans</h3>
+<h3 align="center">Programmeur web depuis l'âge de 12 ans</h3>
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/rodrigue_smith_?label=rodrigue_smith_&logo=twitter&style=for-the-badge)
 ![GitHub followers](https://img.shields.io/github/followers/RodrigueAk47?logo=GitHub&style=for-the-badge)
@@ -28,7 +28,6 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/RodrigueAk47/Mon-portfolio"><b>Portfolio Bootstrap</b></a></td>
       <td><a href="https://getbootstrap.com">Bootstrap</a></td>
       <td><a href="https://getbootstrap.com">HTML</a></td>
       <td><a href="https://code.visualstudio.com">Vscode</a></td>
@@ -59,25 +58,7 @@
       <td><b>📬 Serveurs</b></td>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/RodrigueAk47/Mon-portfolio"><b>Portfolio php</b></a></td>
-      <td><a href="https://getbootstrap.com">Bootstrap</a></td>
-      <td><a href="https://getbootstrap.com">php</a></td>
-      <td><a href="https://code.visualstudio.com">Vscode</a></td>
-      <td><a>Localhost</a></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/RodrigueAk47/laravel-projet-1"><b>Projet 1</b></a></td>
-      <td><a href="http://laravel.com/">Laravel</a></td>
-      <td><a href="https://tailwindcss">Twig</a></td>
-      <td><a href="https://code.visualstudio.com">Vscode</a></td>
-     <td><a href="">Laragon</a></td>
-    </tr>
-    
-  </tbody>
 </table>
-
 
 <br />
 <h3>Language, outils et framework</h3>
