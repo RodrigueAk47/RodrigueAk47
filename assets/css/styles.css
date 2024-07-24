@@ -1,9 +1,268 @@
-* {
-box-sizing: border-box;}
+:root {
+    --red-color: #8E2C2C;
+    --blue-dark-color: #121212;
+}
 
+*, ::before, ::after, figure {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem; /* Ajuste la valeur selon tes besoins */
+    transition: scroll 0.75s ease-in-out; /* Augmente la durée de la transition pour plus de fluidité */
+}
 body {
-display: flex;
-justify-content: center;
-align-items: center;
-font-family: serif;
-height: 100vh;}
+    font-family: Poppins, sans-serif;
+    background-color: RGB(0, 0, 0);
+    font-size: large;
+    color: white;
+    line-height: 1.8;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: var(--red-color);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+
+    width: 400px;
+
+}
+
+nav ul li {
+    padding: 12px 10px;
+    list-style-type: none;
+    font-size: 21px;
+
+
+
+}
+
+
+nav ul li:hover {
+    background-color: #6060a8;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-120deg, rgb(43, 43, 52) 0%, rgba(39, 35, 35, 0.73) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#welcome-section h1 {
+    font-size: 55px;
+    margin: 15px;
+}
+
+#welcome-section p {
+    font-size: 29px;
+
+    font-style: italic;
+    color: var(--red-color);
+    font-weight: lighter;
+}
+
+#projects {
+    background: rgb(69, 86, 125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#projects h2 {
+    margin: 5rem 0 20px 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-size: 43px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    gap: 50px 30px;
+}
+
+.project-tile {
+    width: 375px;
+
+    background-color: var(--blue-dark-color);
+}
+
+img {
+    width: 100%;
+    height: 19em;
+    object-fit: cover;
+}
+.project-tile figure figcaption {
+    margin: 10px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.project-tile figure figcaption:hover::before {
+    content: "< ";
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--red-color);
+}
+
+.project-tile figure figcaption:hover::after {
+    content: " />";
+    color: var(--red-color);
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.btn {
+    background: var(--blue-dark-color);
+    padding: 10px 30px;
+    margin: 30px;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s background-color ease;
+}
+
+.btn:hover  {
+    background: var(--red-color);
+}
+
+#contact {
+    background: var(--blue-dark-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+#contact * {
+    padding: 5px;
+}
+
+#contact ul {
+    display: flex;
+    list-style-type: none;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#contact ul li a{
+    display: flex;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    align-items: center;
+}
+
+#contact h2 {
+    font-size: 65px;
+    margin: 30px 0 0 0;
+}
+
+#contact p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+
+footer {
+    background: var(--blue-dark-color);
+    border-top: 5px solid var(--red-color);
+    padding: 30px 10px;
+    text-align: right;
+
+}
+
+#photo {
+    width: auto;
+    height: 200px;
+    background-color: #303841;
+    border-radius: 50%;
+}
+
+.my-name {
+    border-bottom: 7px solid rgb(69, 86, 125);;
+    padding: 5px;
+
+}
+
+.my-name:nth-child(2) {
+    border-bottom: 7px solid var(--red-color);
+}
+
+
+@media only screen and (max-width: 910px) {
+    .projects-container {
+        width: 100%;
+        gap: 20px 30px;
+    }
+
+    #projects {
+        padding: 7px;
+    }
+
+
+    #contact h2, #projects h2 {
+        font-size: 28px;
+
+    }
+
+    .project-tile {
+        width: 100%;
+    }
+
+    .project-tile figure figcaption {
+        margin: 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #welcome-section {
+        height: auto;
+        padding-top: 80px;
+    }
+
+    #welcome-section h1 {
+        font-size: 26px;
+    }
+
+
+
+}
