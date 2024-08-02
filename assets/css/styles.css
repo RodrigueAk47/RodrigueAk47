@@ -29,7 +29,8 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 60px;
+
+  height: 50px;
   width: 100vw;
   display: flex;
   justify-content: right;
@@ -47,7 +48,7 @@ nav {
 .nav-links a {
   list-style-type: none;
   font-size: 21px;
-  padding: 11.8px 5px;
+  padding: 7.1px 5px;
 }
 
 .nav-links a:hover, .nav-links a:focus {
@@ -61,6 +62,7 @@ a {
 
 #welcome-section {
   height: 100vh;
+ 
   width: 100%;
   background: linear-gradient(
     -120deg,
@@ -264,11 +266,11 @@ footer {
   
  
 #text-overlay {
-    padding: 5px;
+    padding: 10px;
     font-size: 13px !important; 
     font-style: normal !important; 
     color: black !important;
-    font-weight: bold;
+    font-weight: bold !important; 
     
     
   }
@@ -305,7 +307,7 @@ footer {
   }
 
   #welcome-section {
-    height: 100vh;
+    padding-top: 2rem;
   }
 
   #welcome-section h1 {
