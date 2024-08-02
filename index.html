@@ -1,54 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rodrigue Assohou - Développeur Full Stack et Créateur d'Applications</title>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <meta name="description" content="Rodrigue Assohou - Développeur full stack spécialisé en création de sites web modernes et d'applications performantes. Découvrez mon portfolio et mes projets.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="assets/img/photo2.jpg" type="image/jpg">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Rodrigue Assohou - Développeur Full Stack et Créateur d'Applications
+  </title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+  <meta name="description"
+    content="Rodrigue Assohou - Développeur full stack spécialisé en création de sites web modernes et d'applications performantes. Découvrez mon portfolio et mes projets." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="assets/img/photo2.jpg" type="image/jpg" />
+</head>
+
+<body>
   <nav id="navbar">
-    <ul>
-      <li><a href="#welcome-section">A propos</a></li>
-      <li><a href="#projects">Projets</a></li>
-      <li><a href="#contact">Contacts</a></li>
-    </ul>
+    <div class="nav-links">
+      <a href="#welcome-section">A propos</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contacts</a>
+    </div>
   </nav>
   <main>
     <section id="welcome-section">
-      <img src="assets/img/photo2.jpg" id="photo"  alt="Photo de Rodrigue Assohou">
-      <h1><span>Hey, je suis</span> <span class="my-name">Rodrigue</span> <span class="my-name">Assohou</span> </h1>
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+            <img src="assets/img/photo2.jpg" id="photo" alt="Photo de Rodrigue Assohou" />
+          </div>
+          <div class="back">
+              <p id="text-overlay">"Ne cesse jamais d'apprendre et de croire en tes rêves. Ensemble, nous pouvons accomplir de grandes choses !"</p>
+          </div>
+        </div>
+      </div>
+      <h1>
+        <span>Hey, je suis</span> <span class="my-name">Rodrigue</span>
+        <span class="my-name">Assohou</span>
+      </h1>
       <p>Développeur web et mobile</p>
     </section>
+    
     <section id="projects">
-      <h2> Voici certains de mes projets professionnels. </h2>
+      <h2>Voici certains de mes projets professionnels.</h2>
       <div class="projects-container">
         <div class="project-tile">
           <figure>
-            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="">
-            <figcaption><a target="_blank" href="https://rodrigueak47.github.io/Responsive-Web-Design/tribute-page/">Tribute Page</a></figcaption>
+            <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="" />
+            <figcaption>
+              <a target="_blank" href="https://rodrigueak47.github.io/Responsive-Web-Design/tribute-page/">Tribute
+                Page</a>
+            </figcaption>
           </figure>
         </div>
       </div>
-      <button class="btn">Montrer plus <i class="fa fa-1x fa-chevron-right"></i></button>
+      <button class="btn">
+        Montrer plus <i class="fa fa-1x fa-chevron-right"></i>
+      </button>
     </section>
     <section id="contact">
       <h2>Contactez moi</h2>
-      <p>N'hésitez pas à me contacter pour toute collaboration ou opportunité professionnelle.</p>
+      <p>
+        N'hésitez pas à me contacter pour toute collaboration ou opportunité
+        professionnelle.
+      </p>
       <ul>
-        <li><a target="_blank" href="https://web.facebook.com/rodrigue.assohou.dev"><i class="fa fa-2x fa-facebook-square "></i> <span>Facebook</span></a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/rodrigue-assohou/"><i class="fa fa-2x fa-linkedin "></i> <span>Linkedin</span></a></li>
-        <li><a target="_blank" href="https://github.com/RodrigueAk47"><i class="fa fa-2x fa-github "></i> <span>GitHub</span></a></li>
-        <li><a target="_blank" href="https://api.whatsapp.com/qr/GMNFA5ERXL7NN1?autoload=1&app_absent=0"><i class="fa fa-2x fa-whatsapp "></i> <span>Whatsapp</span></a></li>
+        <li>
+          <a target="_blank" href="https://web.facebook.com/rodrigue.assohou.dev"><i
+              class="fa fa-2x fa-facebook-square"></i>
+            <span>Facebook</span></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/rodrigue-assohou/"><i class="fa fa-2x fa-linkedin"></i>
+            <span>Linkedin</span></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/RodrigueAk47"><i class="fa fa-2x fa-github"></i>
+            <span>GitHub</span></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://api.whatsapp.com/message/3RBZRJNHFJ6UB1">
+            <i class="fa fa-2x fa-whatsapp"></i> <span>Whatsapp</span>
+          </a>
+        </li>
       </ul>
     </section>
   </main>
   <footer>
-    <span>&copy Design par <a target="_blank" href="https://www.freecodecamp.org/">FreeCodeCamp</a> et integration par Rodrigue Assohou </span>
+    <span>&copy Design par
+      <a target="_blank" href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+      et integration par Rodrigue Assohou
+    </span>
   </footer>
+</body>
 
-  </body>
 </html>
